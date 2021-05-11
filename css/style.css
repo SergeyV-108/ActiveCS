@@ -379,18 +379,17 @@ body {
     padding: 0 15px;
     position: absolute;
     top: 115px;
-    right: -160px;
+    right: -15px;
     z-index: 1;
-    opacity: 0;
-    visibility: hidden;
+    -webkit-transform: translateX(200px);
+            transform: translateX(200px);
     -webkit-transition: all 0.8s ease;
     transition: all 0.8s ease;
     background-color: #fff;
   }
   .header__social-menu.active {
-    right: -15px;
-    visibility: visible;
-    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
     -webkit-transition: all 0.8s ease;
     transition: all 0.8s ease;
   }
